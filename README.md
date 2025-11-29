@@ -46,7 +46,7 @@ Dynamic Quantization은 런타임에 입력 텐서의 활성화 값(Activation) 
 벤치마크 결과는 **Stacked Bar Chart**로 시각화됩니다.
 * **파란색/초록색 구간 (Absmax)**: 최대 절댓값 계산에 소요된 시간.
 * **회색 구간 (Other Ops)**: 나눗셈, 반올림, 클램핑 등 나머지 양자화 연산 시간.
-* 그래프 상단에는 전체 시간 대비 AbsMax 연산이 차지하는 **백분율(%)**이 표시됩니다.
+* 그래프 상단에는 전체 시간 대비 AbsMax 연산이 차지하는 백분율이 표시됩니다.
 
 <Figure size 1000x400 with 2 Axes><img width="989" height="396" alt="image" src="https://github.com/user-attachments/assets/d6d33636-e59f-4eaa-b517-a9959a98ae79" />
 <Figure size 1000x400 with 2 Axes><img width="989" height="396" alt="image" src="https://github.com/user-attachments/assets/99726524-91da-4b4e-8782-6fb56fc33630" />
