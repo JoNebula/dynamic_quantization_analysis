@@ -7,7 +7,7 @@
 
 ## Project Objective
 
-Dynamic Quantization은 런타임에 입력 텐서의 활성화 값(Activation) 범위를 계산하여 `int8`로 변환합니다. 이 과정에서 `max(abs(tensor))` 연산이 필수적으로 수행됩니다.
+Dynamic Quantization은 런타임에 입력 텐서의 활성화 값(Activation) 범위를 계산하여 `fp`->`int`로 변환합니다. 이 과정에서 `max(abs(tensor))` 연산이 필수적으로 수행됩니다.
 
 이 프로젝트는 다양한 **Quantization 방법론**에 따라 AbsMax 연산의 오버헤드를 측정하고, 입력 텐서의 크기 변화에 따른 성능 특성을 시각화합니다.
 
