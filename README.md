@@ -2,7 +2,7 @@
 
 > **Quantifying the Cost of AbsMax Operations in Dynamic Quantization on GPU**
 
-이 저장소는 PyTorch를 사용하여 GPU 상에서 **Dynamic Quantization**를 수행할 때, Scaling Factor 계산을 위한 핵심 연산인 **AbsMax**가 전체 추론 Latency에서 차지하는 비중을 분석한 벤치마크 프로젝트입니다.
+이 저장소는 PyTorch를 사용하여 GPU 상에서 **Dynamic Quantization**를 수행할 때, Scaling Factor 계산을 위한 핵심 연산인 **AbsMax**가 전체 추론 Latency에서 차지하는 비중을 분석한 벤치마크 프로젝트입니다. 방법론과 무관하게, Dynamic Quantization에서 absolute max operation이 차지하는 비중이 작지 않음을 확인 가능합니다.
 
 
 ## Project Objective
